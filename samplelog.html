@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    function start(){
+        document.getElementById("1date").value=Date();
+    }
+    function stop(){
+        document.getElementById("2date").value=Date();
+    }
+</script>
+</head>
+<body>
+    <div>
+        <button onclick="start()">start</button>
+        <input type="text" id="1date">
+        <button onclick="stop()">stop</button>
+        <input type="text" id="2date">
+    </div>
+</body>
+</html>
